@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* The following is the CSS for the header of the landing page */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 0px 200px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+ul {
+    list-style-type: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    gap: 16px;
+}
+
+/* The following is the CSS for the hero section of the landing page */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.hero-description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-section.content-left-wrapper > button {
+    color: #3882f6;
+}
+
+.hero-section > img {
+    height: 300px;
+    border-radius: 20px;
+}
+
