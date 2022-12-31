@@ -34,25 +34,77 @@ ul {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+    padding: 50px 200px;
+    gap: 50px;
+    
 }
 
 .hero-text {
     font-size: 48px;
     font-weight: 700;
     color: #f9faf8;
+    margin-bottom: 10px;
 }
 
 .hero-description {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 10px;
 }
 
-.hero-section.content-left-wrapper > button {
-    color: #3882f6;
+.hero-section > .content-left-wrapper > button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 20px;
 }
 
 .hero-section > img {
     height: 300px;
     border-radius: 20px;
+    flex-shrink: 1;
 }
 
+/* The following section is the CSS for section-1 */
+
+.section-1 {
+    padding: 50px 200px;
+}
+
+.section-1-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-1-content-wrapper {
+    display: flex;
+    gap: 20px;
+    justify-conent: center;
+    align-items: center;
+}
+
+.section-1-content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-1-content-item-box {
+    width: 160px;
+    height: 160px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 20px;
+    border-width: 4px;
+}
+
+.section-1-content-item-text {
+    text-align: center;
+    font-size: 18px;
+}
